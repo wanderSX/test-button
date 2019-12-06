@@ -1,0 +1,102 @@
+.main {
+  padding: 10px 16px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 17px;
+  cursor:pointer;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  min-width: 100px;
+  transition: all 0.4s ease 0s;
+}
+
+.default {
+  color: white;
+  background-color: black;
+}
+
+.default-primary {
+  background-color: #feb236;
+  border: 1px solid #feb236;
+}
+
+.default-primary:hover {
+  background-color: transparent;
+  color: #feb236;
+}
+
+.default-secondary {
+  background-color: #b2ad7f;
+  border: 1px solid #b2ad7f;
+}
+
+.default-secondary:hover {
+  background-color: transparent;
+  color: #b2ad7f;
+}
+
+.default.disabled {
+  background-color: #878f99;
+  color: white;
+  border: 1px solid #878f99;
+}
+
+.outline {
+  border-width: 1px;
+  border-color: black;
+  background-color: 'white';
+}
+
+.outline-primary {
+  border-color: #feb236;
+  color: #feb236;
+}
+
+.outline-primary:hover  {
+  background-color: #feb236;
+  color: white;
+}
+
+.outline-secondary {
+  border-color: #b2ad7f;
+  color: #b2ad7f;
+}
+
+.outline-secondary:hover  {
+  background-color: #b2ad7f;
+  color: white;
+}
+
+.outline.disabled {
+  border-color: #878f99;
+  color: #878f99;
+}
+
+.text {
+  border: none;
+}
+
+.text-primary {
+  background-color: transparent;
+  color: #feb236;
+}
+
+.text-primary:hover  {
+  background-color: #fed186;
+}
+
+.text-secondary {
+  background-color: transparent;
+  color: #b2ad7f;
+}
+
+.text-secondary:hover  {
+  background-color: #d1ceb2;
+}
+
+.text.disabled {
+  background-color: transparent;
+  color: #878f99;
+}
